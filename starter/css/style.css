@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  background-color: white;
+}
+
+header h1 {
+  color: black;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 20px;
+  background-color: beige;
+}
+
+nav {
+  width: 80%;
+}
+nav a {
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: right;
+  color: black;
+  font-size: 50px;
+  float: right;
+}
+
+.hero-banner {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url(../images/jan-folwarczny-ZXBPMnNVtlE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: gray;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+.page-wrapper {
+
+}
+
+#about {
+  font-size: 30px;
+}
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
