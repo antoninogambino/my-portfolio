@@ -19,9 +19,9 @@ header {
 
 header h1 {
   color: black;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 50px;
-  padding-right: 20px;
+  padding-right: 100px;
   background-color: beige;
 }
 
@@ -44,6 +44,7 @@ nav a {
   height: 400px;
   width: 100%;
   margin-bottom: 25px;
+  margin-top: 0%;
   background-image: url(../images/jan-folwarczny-ZXBPMnNVtlE-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -58,6 +59,7 @@ h2 {
   color: white;
   background-color: black;
   font-size: 50px;
+  margin-top: 0%;
 }
 
 .page-wrapper {
