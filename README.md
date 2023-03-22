@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 2 Challenge: Portfolio
 
 ## Your Task
@@ -73,3 +74,7 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+# my-portfolio
+My portfolio for all of the projects I will develop during my BootCamp
+>>>>>>> b4f51e0dc354e1550cff6b66f6bc946e9a734bb2
