@@ -3,10 +3,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	padding: 0;
-  }
-  
-  /* Header section */
-  header {
+}
+
+/* Header section */
+header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -17,9 +17,9 @@ body {
 	width: 100%;
 	top: 0;
 	z-index: 999;
-  }
-  
-  .hero {
+}
+
+.hero {
 	background-image: url('./starter/images/02-hero-bg.jpg');
 	background-size: cover;
 	background-position: center;
@@ -30,14 +30,14 @@ body {
 }
 
 .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: -1;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: -1;
 }
 
 .hero h2 {
@@ -46,106 +46,137 @@ body {
 	margin: 0;
 }
 
-  /* Navigation menu */
-  nav {
+/* Navigation menu */
+nav {
 	display: flex;
 	align-items: center;
-  }
-  
-  nav ul {
+}
+
+nav ul {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
 	margin-right: 20px;
 	padding: 0;
 	font-size: 1.5rem;
-  }
-  
-  nav li {
+}
+
+nav li {
 	margin: 0 10px;
-  }
-  
-  nav a {
+}
+
+nav a {
 	color: #000;
 	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: bold;
 	transition: all 0.3s ease;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
 	color: #ccc;
-  }
-  
-  /* Main content section */
-  main {
+}
+
+/* Main content section */
+main {
 	margin-top: 80px;
 	padding: 20px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
 }
 
 .about-me {
-    width: 48%;
+	width: 48%;
 	font-size: 45px;
 }
 
 .line {
-    border-left: 1px solid #ddd;
-    height: 100%;
-    margin: 0 2%;
+	border-left: 1px solid #ddd;
+	height: 100%;
+	margin: 0 2%;
 }
 
 .portfolio {
-    width: 48%;
+	width: 48%;
 	font-size: 45px;
 }
-  
-  /* Image gallery */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+/* Image gallery */
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .gallery img {
-    width: 48%;
-    margin-bottom: 30px;
+	width: 48%;
+	margin-bottom: 30px;
 	transition: opacity 0.3s ease;
 }
 
 .gallery img:hover {
 	opacity: 0.7;
-	}
-  
-  /* Contact section */
+}
 
-  h2 {
+/* Contact section */
+h2 {
 	font-size: 40px;
-  }
-  
-  .contact ul {
+}
+
+.contact ul {
 	display: flex;
-  }
-  
-  .contact li {
+}
+
+.contact li {
 	font-size: 2rem;
 	margin-right: 20px;
 	list-style: none;
-  }
-  
-  /* Footer section */
-  footer {
+}
+
+/* Footer section */
+footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 	padding: 20px;
-  }
+}
 
-  
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+	.hero h2 {
+		font-size: 24px;
+	}
+	
+	nav ul {
+		font-size: 1rem;
+	}
+	
+	.about-me,
+	.line,
+	.portfolio {
+		width: 100%;
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	
+	.gallery img {
+		width: 100%;
+	}
+	
+	h2 {
+		font-size: 32px;
+	}
+	
+	.contact li {
+		font-size: 1.5rem;
+		margin-right: 10px;
+	}
+	
+	footer {
+		padding: 10
