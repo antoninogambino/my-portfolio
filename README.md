@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Unit 2 Challenge: Portfolio
 
 ## Your Task
