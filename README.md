@@ -33,3 +33,4 @@ URL: https://antoninogambino.github.io/my-portfolio/
 GitHib deployed repository: https://github.com/antoninogambino/my-portfolio.git
 
 **Deployed website screenshot**
+![alt text](images/Portfolio screenshot.jpg)
